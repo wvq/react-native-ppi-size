@@ -1,7 +1,7 @@
 {
   "name": "react-native-ppi-size",
   "version": "0.1.0",
-  "description": "caculate size of ppi",
+  "description": "react-native scale dp size to same physical size",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
