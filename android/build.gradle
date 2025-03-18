@@ -42,7 +42,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.ppisize"
+    namespace "com.github.wvq.ppisize"
 
     sourceSets {
       main {
@@ -106,6 +106,6 @@ if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "PpiSize"
-    codegenJavaPackageName = "com.ppisize"
+    codegenJavaPackageName = "com.github.wvq.ppisize"
   }
 }

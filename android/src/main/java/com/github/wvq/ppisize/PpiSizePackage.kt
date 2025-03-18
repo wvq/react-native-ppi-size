@@ -1,4 +1,4 @@
-package com.ppisize
+package com.github.wvq.ppisize
 
 import com.facebook.react.BaseReactPackage
 import com.facebook.react.bridge.NativeModule

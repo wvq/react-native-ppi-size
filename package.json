@@ -191,7 +191,7 @@
       "android": "android/generated"
     },
     "android": {
-      "javaPackageName": "com.ppisize"
+      "javaPackageName": "com.github.wvq.ppisize"
     },
     "includesGeneratedCode": true
   },

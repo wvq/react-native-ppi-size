@@ -1,12 +1,11 @@
 #import "PpiSize.h"
+#import "DeviceDimensions.h"
 
 @implementation PpiSize
 RCT_EXPORT_MODULE()
 
-- (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(a * b);
-
-    return result;
+- (nonnull NSDictionary *)getDisplayMetrics {
+  return [DeviceDimensions getDisplayMetrics];
 }
 
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:
